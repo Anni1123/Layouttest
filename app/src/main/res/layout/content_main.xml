@@ -91,7 +91,7 @@
         android:layout_rowWeight="1"
         android:layout_column="0"
         android:onClick="buttontapped"
-        android:text="Button" />
+        android:text="Click Here" />
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
@@ -102,7 +102,7 @@
         android:layout_rowWeight="1"
         android:layout_column="1"
         android:onClick="buttontapped"
-        android:text="Button" />
+        android:text="Click Here" />
 
 
 
