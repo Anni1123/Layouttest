@@ -1,5 +1,6 @@
 package com.example.layouttest;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -45,5 +46,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void zoomv(View view) {
+        startActivity(new Intent(MainActivity.this,ZoomScrollView.class));
     }
 }
