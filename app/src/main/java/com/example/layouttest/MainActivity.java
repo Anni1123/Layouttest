@@ -51,4 +51,21 @@ public class MainActivity extends AppCompatActivity {
     public void zoomv(View view) {
         startActivity(new Intent(MainActivity.this,ZoomScrollView.class));
     }
+    public void shadow(View view) {
+        startActivity(new Intent(MainActivity.this,LongShadow.class));
+    }
+    public void blur(View view) {
+        startActivity(new Intent(MainActivity.this,BlurImage.class));
+    }
+    public void clock(View view) {
+        startActivity(new Intent(MainActivity.this,CLockAnimation.class));
+    }
+
+    public void zigzag(View view) {
+        startActivity(new Intent(MainActivity.this,ZigZagVu.class));
+    }
+
+    public void animate(View view) {
+        startActivity(new Intent(MainActivity.this,AndroidView.class));
+    }
 }

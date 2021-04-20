@@ -31,6 +31,47 @@
         android:onClick="zoomv"
         android:textSize="22sp"
         android:text="Zoom Scroll View"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/longshadow"
+        android:layout_marginTop="250dp"
+        android:textStyle="bold"
+        android:onClick="shadow"
+        android:textSize="22sp"
+        android:text="Long Shadow"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:textStyle="bold"
+        android:onClick="blur"
+        android:textSize="22sp"
+        android:text="Blur Image"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:textStyle="bold"
+        android:onClick="clock"
+        android:textSize="22sp"
+        android:text="Clock Amination"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:textStyle="bold"
+        android:onClick="zigzag"
+        android:textSize="22sp"
+        android:text="Zig Zag View"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:textStyle="bold"
+        android:onClick="animate"
+        android:textSize="22sp"
+        android:text="Animate View"/>
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"

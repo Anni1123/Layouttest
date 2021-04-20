@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ZigZagVu">
+    <ir.beigirad.zigzagview.ZigzagView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        app:zigzagBackgroundColor="#8bc34a"
+        app:zigzagElevation="8dp"
+        app:zigzagHeight="10dp"
+        app:zigzagShadowAlpha="0.9"
+        app:zigzagSides="top|bottom|right|left"
+        app:zigzagPaddingContent="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zig Zag View"
+            android:textSize="32sp"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:textColor="#000"/>
+
+    </ir.beigirad.zigzagview.ZigzagView>
+</LinearLayout>

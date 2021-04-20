@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ZoomScrollView"/>
+        <activity android:name=".AndroidView"></activity>
+        <activity android:name=".ZigZagVu" />
+        <activity android:name=".CLockAnimation" />
+        <activity android:name=".BlurImage" />
+        <activity android:name=".LongShadow" />
+        <activity android:name=".ZoomScrollView" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
